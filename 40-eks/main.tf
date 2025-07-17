@@ -5,7 +5,7 @@ resource "aws_key_pair" "eks" {
 
 module "eks" {
   source  = "terraform-aws-modules/eks/aws"
-  version = "~> 20.0"
+  #version = "~> 20.0"
 
   cluster_name    = local.name
   cluster_version = "1.31" # later we upgrade 1.32
