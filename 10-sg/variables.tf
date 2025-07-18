@@ -13,3 +13,7 @@ variable "common_tags" {
         Terraform = "true"
     }
 }
+# variable "sg_description" {
+
+    
+# }
